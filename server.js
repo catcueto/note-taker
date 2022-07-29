@@ -105,5 +105,5 @@ app.get("*", (req, res) => {
 
 // Listening for connections
 app.listen(PORT, () =>
-  console.log(`App listening at http://localhost:${PORT} 🚀`)
+  console.log(`App listening at http://localhost:${PORT}`)
 );
